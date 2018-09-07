@@ -3,7 +3,7 @@ def my_collect(collection)
   array_new = []
   
   while i < collection.length 
-    yield(collection[i]) if block_given?
+    yield(collection[i])
     i = i + 1
   end 
   
